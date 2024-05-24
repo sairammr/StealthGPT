@@ -1,11 +1,14 @@
 from GPT_API import driver as gpt_driver 
 from GPT_API import prompt
+from GPT_API import PlatformBasedDriver
+
 from flask import Flask, jsonify, request, json
 
 app = Flask(__name__)
 driver = None
 
 def initialize_driver():
+    PlatformBasedDriver.debuggingModeLauncher()
     global driver
     # Create the WebDriver instance if it's not already initialized
     if driver is None:
