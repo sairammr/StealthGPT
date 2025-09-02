@@ -1,4 +1,6 @@
-# ChatGPT Selenium API
+# ----------DEPRECATED---------------
+
+## ChatGPT Selenium API
 
 The ChatGPT Selenium API is a free and open-source tool that facilitates seamless access to OpenAI's ChatGPT in headless mode using Selenium. With this API, developers can integrate ChatGPT into their projects, automating interactions with the AI model without requiring a graphical user interface.
 
